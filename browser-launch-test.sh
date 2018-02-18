@@ -1,3 +1,9 @@
+#!/bin/bash
+
+# Author:	Keith Patton 2016
+# Brief:	A BASH script to compare the load times of
+#		Google Chrome and Firefox web browsers
+
 # Launch both firefox and google-chrome
 (nohup firefox >/dev/null 2>&1 &) && (nohup google-chrome-stable >/dev/null 2>&1 &)
 
